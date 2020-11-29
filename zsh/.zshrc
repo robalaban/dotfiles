@@ -72,12 +72,6 @@ set pure_color_yellow set_color "ffd866"
 # Anaconda Config
 export PATH="$PATH:/usr/local/anaconda3/bin"
 
-# Kitty Config 
-autoload -Uz compinit
-compinit
-kitty + complete setup zsh | source /dev/stdin
-export KITTY_CONFIG_DIRECTORY="/Users/robert/.dotfiles/kitty"
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
