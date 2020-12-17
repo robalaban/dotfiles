@@ -1,0 +1,8 @@
+alias rmdstore="find . -name '.DS_Store' -type f -delete"
+alias reload="source ~/.zshrc"
+alias cra="create-react-app"
+alias copyssh="pbcopy < ~/.ssh/id_rsa.pub"
+alias ga="git add"
+alias gpo="git pull origin"
+alias gs="git status"
+alias gm="git commit -m"

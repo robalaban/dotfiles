@@ -1,8 +1,12 @@
+# Cleanup Crew
+
+./config/cleanup.sh
+
 # Make sure brew is installed
 
 # Github
 
-ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ./git/.gitconfig ~/.gitconfig
 
 # System
 
@@ -10,4 +14,9 @@ ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 
 # ZSH
 
-cp ~/.dotfiles/zsh/.zshrc .zshrc
+cp ./zsh/.zshrc ~/.zshrc
+cp ./zsh/aliases.sh ~/.aliases.sh
+
+# Load ZSH
+
+source ~/.zshrc

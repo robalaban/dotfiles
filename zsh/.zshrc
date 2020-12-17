@@ -51,14 +51,7 @@ function code {
 }
 
 # Alias config
-alias rmdstore="find . -name '.DS_Store' -type f -delete"
-alias reload="source ~/.zshrc"
-alias cra="create-react-app"
-alias copyssh="pbcopy < ~/.ssh/id_rsa.pub"
-alias ga="git add"
-alias gpo="git pull origin"
-alias gs="git status"
-alias gm="git commit -m"
+source ~/.aliases.sh
 
 # Change the colors
 set pure_color_blue set_color "6088ff"
