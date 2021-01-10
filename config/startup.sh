@@ -6,7 +6,7 @@
 
 # Make sure OhMyZSH is installed 
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 
 # Installing OhMyZSH Plugins
 
@@ -21,7 +21,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 # Github
 
-ln -s ./git/.gitconfig ~/.gitconfig
+cp ./git/.gitconfig ~/.gitconfig
 
 # System
 

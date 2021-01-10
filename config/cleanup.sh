@@ -13,6 +13,6 @@ sleep 0.5
 echo "removing files... \r"
 rm ~/.zshrc
 rm ~/.aliases.sh
-rm ~/.oh-my-zsh
+rm -r ~/.oh-my-zsh
 
 sleep 0.5
