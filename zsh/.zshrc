@@ -84,3 +84,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# GO Config
+
+export PATH="$PATH:$GOPATH/bin"
+export PATH=$PATH:$(go env GOPATH)/bin
